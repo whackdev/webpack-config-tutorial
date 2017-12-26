@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+$brand-purple: rgb(135, 140, 223);
+$brand-green: rgb(153, 251, 198);
+$font-size: 5rem;
+$merriweather: "Merriweather", sans-serif;
+
+body {
+  height: 100vh;
+  background-color: $brand-purple;
+  text-align: center;
+  color: $brand-green;
+  font-size: $font-size;
+  font-weight: 900;
+  font-family: $merriweather;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column; }
+  .container .image-wrapper {
+    display: inline-block;
+    margin: 0 10px; }
+    .container .image-wrapper__image {
+      width: auto;
+      height: 300px;
+    }
